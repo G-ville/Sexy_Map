@@ -29,9 +29,9 @@ th, td {
     bottom: 12px;
     left: -50px;   
     height: auto;
-    width: auto;
-    min-width: 100px;
-    max-height:400px;
+	width: auto;
+	min-width: 350px;
+	max-height:400px;
     overflow: auto;      
 }
 
@@ -77,4 +77,5 @@ th, td {
     margin-bottom:0.25em;
 }
 
-#popup-content img {max-width: 300px;}
+#popup-content img {
+max-width: 300px;}

@@ -1,5 +1,5 @@
 ol.proj.proj4.register(proj4);
-ol.proj.get("EPSG:7850").setExtent([386827.818744, 6471602.909651, 390406.449137, 6474392.550667]);
+ol.proj.get("EPSG:7850").setExtent([386958.372417, 6471598.248623, 390451.886379, 6474321.539034]);
 var wms_layers = [];
 
 
@@ -32,7 +32,7 @@ var lyr_Urban_Change_1 = new ol.layer.Vector({
 lyr_voyager_0.setVisible(true);lyr_Urban_Change_1.setVisible(true);
 var layersList = [lyr_voyager_0,lyr_Urban_Change_1];
 lyr_Urban_Change_1.set('fieldAliases', {'name': 'name', 'suburb': 'suburb', 'label': 'label', });
-lyr_Urban_Change_1.set('fieldImages', {'name': 'TextEdit', 'suburb': '', 'label': 'ExternalResource', });
+lyr_Urban_Change_1.set('fieldImages', {'name': 'TextEdit', 'suburb': 'TextEdit', 'label': 'ExternalResource', });
 lyr_Urban_Change_1.set('fieldLabels', {'name': 'no label', 'suburb': 'no label', 'label': 'no label', });
 lyr_Urban_Change_1.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
