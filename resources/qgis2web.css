@@ -76,3 +76,5 @@ th, td {
 #popup-content li {
     margin-bottom:0.25em;
 }
+
+#popup-content img {max-width: 300px;}
