@@ -23,13 +23,14 @@
             padding-right: 10px;
         }
         .leaflet-popup-content {
-            width:auto;
+            width:320px;
             padding-right:10px;
         }
         .leaflet-tooltip {
             background: none;
             box-shadow: none;
             border: none;
+        text-shadow: 1px 1px 4px #ffffff;
         }
         .leaflet-tooltip-left:before, .leaflet-tooltip-right:before {
             border: 0px;
@@ -122,6 +123,8 @@
             font-size: 13px;
             line-height: 30px;
             text-align: center;
+
+        .leaflet-popup-content img {max-width: 300px;}
             text-indent: 0%;
         }
         .leaflet-control-layers-toggle {
