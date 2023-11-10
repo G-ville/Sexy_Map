@@ -671,7 +671,7 @@
                         <td colspan="2">' + (feature.properties['suburb'] !== null ? autolinker.link(feature.properties['suburb'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['image'] !== null ? '<img src="images/' + String(feature.properties['image']).replace(/[\\\/:]/g, '_').trim() + '">' : '') + '</td>\
+                         <td colspan="2">' + (feature.properties['image'] !== null ? '<a href="images/' + String(feature.properties['image']).replace(/[\\\/:]/g, '_').trim() + '" /" target="blank"><img src="images/' + String(feature.properties['image']).replace(/[\\\/:]/g, '_').trim() + '" >' : '') + '</a></td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
