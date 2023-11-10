@@ -123,10 +123,9 @@
             font-size: 13px;
             line-height: 30px;
             text-align: center;
-
-        .leaflet-popup-content img {max-width: 300px;}
             text-indent: 0%;
         }
         .leaflet-control-layers-toggle {
             background-color: #f8f8f8 !important;
         }
+        .leaflet-popup-content img {max-width: 300px;}
